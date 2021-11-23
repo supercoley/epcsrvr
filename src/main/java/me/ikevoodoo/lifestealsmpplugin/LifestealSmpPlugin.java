@@ -79,16 +79,22 @@ public final class LifestealSmpPlugin extends JavaPlugin {
                         "shaped": true,
                         "outputAmount": 1,
                         "recipe": [
-                            "ODO",
-                            "D D",
-                            "ODO"
+                            "DUD",
+                            "OTO",
+                            "DUD"
                         ],
                         "items": {
                             "O": {
-                                "item": "minecraft:obsidian"
+                                "item": "minecraft:gold_block"
                             },
                             "D": {
                                 "item": "minecraft:diamond_block"
+                            }
+                            "T": {
+                                "item": "minecraft:netherite_ingot" or "item": "minecraft:elytra"
+                            }
+                            "U": {
+                                "item": "minecraft:obsidian"
                             }
                         }
                     }
